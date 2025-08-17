@@ -22,9 +22,9 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="bg-[#000f08] px-4">
+  <body class="bg-[#000b0f] px-4">
     <header>
-      <%= render(NavbarComponent.new) %>
+      <%= render(NavbarComponent.new(controller: controller_name, action: action_name)) %>
     </header>
 
     <main class="">
