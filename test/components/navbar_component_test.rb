@@ -3,8 +3,12 @@
 require "test_helper"
 
 class NavbarComponentTest < ViewComponent::TestCase
-  def test_component_renders_something_useful
-    render_inline(NavbarComponent.new)
+  test "renders navbar on landing page" do
+    render_inline(NavbarComponent.new(controller: "landings", action: "welcome"))
     assert_component_rendered
+  end
+  test "component is not rendered if current page is not the landing page" do
+    render_inline(NavbarComponent.new(controller: "bad", action: "no"))
+    refute_component_rendered
   end
 end

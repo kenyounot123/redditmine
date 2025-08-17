@@ -9,7 +9,7 @@ class NavbarComponent < ViewComponent::Base
   end
 
   def render?
-    controller_name == @controller && action_name == @action
+    @controller == "landings" && @action == "welcome"
   end
 
   private
