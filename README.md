@@ -1,24 +1,5 @@
-# README
+# Submine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A tool to discover niche pain points through subreddits
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img width="1661" height="912" alt="CleanShot 2025-08-18 at 16 34 35" src="https://github.com/user-attachments/assets/e8902a20-e2aa-4728-9da6-384d4d883be1" />
