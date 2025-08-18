@@ -15,7 +15,7 @@ class NavbarComponent < ViewComponent::Base
   private
 
   def navbar_hero_logo
-    image_tag("icon.svg", class: "w-6 h-6", alt: "RedditMine")
+    image_tag("icon.svg", class: "w-6 h-6", alt: "Submine")
   end
 
   def sign_in_button
