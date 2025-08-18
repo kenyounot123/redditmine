@@ -1,0 +1,247 @@
+{
+  "design_system": {
+    "name": "Modern SaaS Dark Theme Design System",
+    "version": "1.0",
+    "style_category": "modern_saas_dark",
+    "description": "A comprehensive design system for creating modern SaaS landing pages with dark theme aesthetics"
+  },
+  
+  "visual_identity": {
+    "brand_personality": ["professional", "modern", "innovative", "trustworthy", "premium"],
+    "design_principles": [
+      "Dark-first approach with high contrast",
+      "Gradient accents for visual interest",
+      "Clean typography hierarchy",
+      "Spacious layouts with generous whitespace",
+      "Data-driven visualizations",
+      "Premium feel through sophisticated color choices"
+    ]
+  },
+
+  "color_palette": {
+    "primary": {
+      "background": "#0A0B14",
+      "surface": "#151621",
+      "card": "#1A1B28"
+    },
+    "accent": {
+      "primary_gradient": ["#8B5FBF", "#6B46C1", "#9333EA"],
+      "secondary_gradient": ["#3B82F6", "#1E40AF"],
+      "highlight": "#A855F7"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#94A3B8",
+      "muted": "#64748B"
+    },
+    "interactive": {
+      "button_primary": "#8B5FBF",
+      "button_hover": "#A855F7",
+      "links": "#8B5FBF"
+    }
+  },
+
+  "typography": {
+    "font_families": {
+      "primary": "Inter, system-ui, sans-serif",
+      "secondary": "SF Pro Display, system-ui, sans-serif"
+    },
+    "scale": {
+      "hero_title": {
+        "size": "clamp(2.5rem, 5vw, 4rem)",
+        "weight": "700",
+        "line_height": "1.1",
+        "letter_spacing": "-0.02em"
+      },
+      "section_title": {
+        "size": "clamp(1.75rem, 3vw, 2.5rem)",
+        "weight": "600",
+        "line_height": "1.2"
+      },
+      "body_large": {
+        "size": "1.125rem",
+        "weight": "400",
+        "line_height": "1.6"
+      },
+      "body_default": {
+        "size": "1rem",
+        "weight": "400",
+        "line_height": "1.5"
+      }
+    },
+    "text_effects": {
+      "gradient_text": true,
+      "gradient_colors": ["#8B5FBF", "#A855F7", "#3B82F6"]
+    }
+  },
+
+  "layout_patterns": {
+    "container": {
+      "max_width": "1200px",
+      "padding": "0 1.5rem",
+      "margin": "0 auto"
+    },
+    "sections": {
+      "spacing": "clamp(4rem, 8vw, 8rem)",
+      "padding": "clamp(2rem, 4vw, 4rem) 0"
+    },
+    "grid_systems": {
+      "hero": "single_column_centered",
+      "features": "multi_column_responsive",
+      "testimonials": "card_grid",
+      "dashboard_preview": "full_width_showcase"
+    }
+  },
+
+  "component_patterns": {
+    "hero_section": {
+      "structure": "centered_content",
+      "elements": ["headline", "subheadline", "cta_buttons", "trust_indicators"],
+      "background": "dark_with_subtle_patterns",
+      "spacing": "generous_vertical"
+    },
+    
+    "feature_sections": {
+      "layout": "alternating_content_image",
+      "content_structure": ["section_title", "description", "feature_list", "supporting_visuals"],
+      "visual_hierarchy": "title_first_then_supporting_content"
+    },
+
+    "dashboard_showcase": {
+      "presentation": "elevated_mockup",
+      "styling": "realistic_shadow_depth",
+      "background": "subtle_gradient_or_pattern",
+      "positioning": "centered_with_perspective"
+    },
+
+    "stat_cards": {
+      "layout": "grid_responsive",
+      "styling": "glass_morphism_subtle",
+      "content": ["metric_number", "metric_label", "trend_indicator"],
+      "background": "semi_transparent_cards"
+    },
+
+    "testimonial_cards": {
+      "structure": "user_photo_quote_attribution",
+      "styling": "bordered_cards_dark_theme",
+      "layout": "masonry_or_grid",
+      "rating_display": "star_ratings"
+    },
+
+    "cta_buttons": {
+      "primary": {
+        "style": "gradient_background",
+        "hover": "slight_scale_and_glow",
+        "border_radius": "0.5rem",
+        "padding": "0.75rem 1.5rem"
+      },
+      "secondary": {
+        "style": "outlined_transparent",
+        "hover": "filled_background",
+        "border": "1px solid accent_color"
+      }
+    }
+  },
+
+  "visual_effects": {
+    "gradients": {
+      "usage": "backgrounds, text, buttons, accents",
+      "direction": "diagonal, radial, linear",
+      "opacity": "subtle to prominent based on context"
+    },
+    "shadows": {
+      "card_elevation": "0 4px 20px rgba(0, 0, 0, 0.25)",
+      "button_hover": "0 8px 25px rgba(139, 95, 191, 0.25)",
+      "dashboard_mockup": "0 20px 60px rgba(0, 0, 0, 0.4)"
+    },
+    "animations": {
+      "hover_transitions": "0.2s ease-in-out",
+      "scroll_reveals": "fade_in_up",
+      "button_interactions": "scale_and_glow"
+    }
+  },
+
+  "content_structure": {
+    "page_flow": [
+      "hero_with_value_proposition",
+      "trust_indicators_or_logos",
+      "main_dashboard_preview",
+      "key_features_alternating",
+      "stats_and_metrics",
+      "testimonials_social_proof",
+      "faq_section",
+      "final_cta"
+    ],
+    
+    "section_anatomy": {
+      "headline_pattern": "benefit_focused_with_power_words",
+      "subheadline_pattern": "explanatory_supporting_text",
+      "visual_hierarchy": "large_titles_medium_descriptions_small_details"
+    }
+  },
+
+  "responsive_behavior": {
+    "breakpoints": {
+      "mobile": "320px - 768px",
+      "tablet": "768px - 1024px", 
+      "desktop": "1024px+"
+    },
+    "adaptations": {
+      "mobile": ["single_column", "larger_touch_targets", "condensed_spacing"],
+      "tablet": ["two_column_where_appropriate", "medium_spacing"],
+      "desktop": ["full_multi_column", "generous_spacing", "hover_effects"]
+    }
+  },
+
+  "ui_elements": {
+    "navigation": {
+      "style": "minimal_horizontal_nav",
+      "background": "semi_transparent_or_solid_dark",
+      "items": "text_links_with_hover_states"
+    },
+    
+    "forms": {
+      "input_style": "dark_background_light_text",
+      "border": "subtle_accent_color",
+      "focus_state": "accent_glow_border"
+    },
+
+    "icons": {
+      "style": "outline_or_minimal_filled",
+      "color": "accent_colors_or_muted",
+      "size": "consistent_sizing_scale"
+    }
+  },
+
+  "data_visualization": {
+    "dashboard_elements": [
+      "line_charts_with_gradients",
+      "bar_charts_with_accent_colors", 
+      "metric_cards_with_large_numbers",
+      "progress_indicators",
+      "data_tables_with_dark_styling"
+    ],
+    "color_scheme": "accent_colors_for_data_points",
+    "background": "dark_chart_backgrounds"
+  },
+
+  "implementation_guidelines": {
+    "css_approach": "utility_first_with_custom_components",
+    "spacing_system": "consistent_scale_based_spacing",
+    "component_reusability": "modular_sections_and_cards",
+    "performance": "optimized_images_and_lazy_loading",
+    
+    "accessibility": [
+      "high_contrast_ratios_for_dark_theme",
+      "keyboard_navigation_support", 
+      "screen_reader_friendly_markup",
+      "focus_visible_states"
+    ]
+  },
+
+  "brand_applications": {
+    "logo_treatment": "light_version_for_dark_backgrounds",
+    "brand_colors": "integrated_with_accent_palette",
+    "voice_and_tone": "professional_yet_approachable_copy"
+  }
+}
