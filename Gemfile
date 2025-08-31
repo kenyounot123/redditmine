@@ -65,3 +65,4 @@ group :test do
 end
 
 gem "view_component"
+gem "simply_reddit"
